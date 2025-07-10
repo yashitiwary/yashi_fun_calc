@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yashi's FunCalc 🎀</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Yashi's FunCalc 💖</h1>
+
+        <form method="POST">
+            <label>🌸 Enter first number (a):</label>
+            <input type="text" name="num1" required>
+
+            <label>🌼 Enter second number (b):</label>
+            <input type="text" name="num2" required>
+
+            <div class="buttons">
+                <button name="operation" value="add" class="add">➕ Add</button>
+                <button name="operation" value="sub" class="sub">➖ Sub</button>
+                <button name="operation" value="mul" class="mul">✖️ Mul</button>
+                <button name="operation" value="div" class="div">➗ Div</button>
+            </div>
+        </form>
+
+        <h2>✨ Result: {{ result if result is not none else 0 }} ✨</h2>
+
+        <p class="footer">🔄 Made with smiles by Yashi 🔄</p>
+    </div>
+</body>
+</html>
