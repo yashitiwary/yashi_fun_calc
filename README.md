@@ -12,6 +12,9 @@ A cute and fun calculator built using **Flask** and **Python**, styled with 💖
 - Flask
 - HTML + CSS
 
+- ![Yashi's FunCalc Screenshot](screenshot_calculator.png)
+
+
 ## 🔧 How to Run Locally
 
 ```bash
@@ -19,6 +22,6 @@ git clone https://github.com/yashitiwary/yashi_fun_calc.git
 cd yashi_fun_calc
 pip install -r requirements.txt
 python app.py
-![FunCalc Screenshot](screenshot_calculator.png)
+
 
 
