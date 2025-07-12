@@ -19,4 +19,4 @@ git clone https://github.com/yashitiwary/yashi_fun_calc.git
 cd yashi_fun_calc
 pip install -r requirements.txt
 python app.py
-![Yashi's FunCalc UI](screenshot.png)
+
