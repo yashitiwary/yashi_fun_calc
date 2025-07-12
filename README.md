@@ -1,5 +1,22 @@
-# Yashi Fun Calc 🧮💖
+# 🎀 Yashi's FunCalc 🎀
 
-A fun and cool calculator made with Flask and Python.
+A cute and fun calculator built using **Flask** and **Python**, styled with 💖 and creativity!
 
-🚀 **Live Demo**: [Click here to use it!](https://yashi-fun-calc.onrender.com/)
+## ✨ Features
+- Add, Subtract, Multiply, Divide
+- Pink & playful UI
+- Made with love and smiles by Yashi 🌸
+
+## 🚀 Tech Stack
+- Python
+- Flask
+- HTML + CSS
+
+## 🔧 How to Run Locally
+
+```bash
+git clone https://github.com/yashitiwary/yashi_fun_calc.git
+cd yashi_fun_calc
+pip install -r requirements.txt
+python app.py
+![Yashi's FunCalc UI](screenshot.png)
